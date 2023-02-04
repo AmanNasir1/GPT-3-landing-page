@@ -15,17 +15,14 @@ a {
 }
 
 .gradient__bg {
-
   background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
-
 }
 
+
 .gradient__text {
-  background-color: var(--gradient-text);
-  /* background-clip: text; */
-  /* background-clop: text; */
-  /* -webkit-text-fill-color: transparent; */
+  background: var(--gradient-text);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 
 }
 
